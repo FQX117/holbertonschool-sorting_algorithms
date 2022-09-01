@@ -6,6 +6,9 @@
  * TDMerge - sorts and merges the sub arrays in source
  */
 void TDMerge(size_t start, size_t middle, size_t end, int *dest, int *source)
+/**
+* funtions
+*/
 {
 	size_t i, j, k;
 
@@ -37,6 +40,9 @@ void TDMerge(size_t start, size_t middle, size_t end, int *dest, int *source)
  * TDSplitMerge - recursively splits the array and merges the sorted arrays
  */
 void TDSplitMerge(size_t start, size_t end, int *array, int *copy)
+/**
+* funtions
+*/
 {
 	size_t middle;
 
@@ -55,6 +61,9 @@ void TDSplitMerge(size_t start, size_t end, int *array, int *copy)
  *Merge sort algorithm
  */
 void merge_sort(int *array, size_t size)
+/**
+* funtions
+*/
 {
 	size_t i;
 	int *copy;
