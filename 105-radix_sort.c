@@ -3,6 +3,7 @@
 
 /**
  * pow_10 - calculates a positive power of 10
+ * @power: RV
  */
 unsigned int pow_10(unsigned int power)
 {
@@ -16,6 +17,9 @@ unsigned int pow_10(unsigned int power)
 
 /**
  * count_sort - sorts an array of integers in ascending order
+ * @array: RV
+ * @size: RV
+ * @digit: RV
  */
 unsigned int count_sort(int *array, size_t size, unsigned int digit)
 {
@@ -56,6 +60,8 @@ unsigned int count_sort(int *array, size_t size, unsigned int digit)
 
 /**
  * radix_sort - sorts an array of integers in ascending order
+ * @array: RV
+ * @size: RV
  */
 void radix_sort(int *array, size_t size)
 {
