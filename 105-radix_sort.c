@@ -4,6 +4,7 @@
 /**
  * pow_10 - calculates a positive power of 10
  * @power: RV
+ * Return: value
  */
 unsigned int pow_10(unsigned int power)
 {
@@ -20,6 +21,7 @@ unsigned int pow_10(unsigned int power)
  * @array: RV
  * @size: RV
  * @digit: RV
+ * Return: value
  */
 unsigned int count_sort(int *array, size_t size, unsigned int digit)
 {
